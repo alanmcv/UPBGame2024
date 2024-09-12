@@ -21,7 +21,7 @@ public class Button {
     }
 
     public void nextButton(String name) {
-        if (name.equals("Siguie")) {
+        if (name.equals("Sigu")) {
             if (game.getnrScreen_alphabet() == 1) {
                 game.setNrScreen_alphabet(2);
                 game.mostrar_alfabeto2();
