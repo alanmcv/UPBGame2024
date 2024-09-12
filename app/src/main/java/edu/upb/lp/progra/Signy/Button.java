@@ -66,7 +66,7 @@ public class Button {
     }
 
     public void playingBackButton(String name) {
-        if (name.equals("Volver a Jugar")) {
+        if (name.equals("Volver a Jugr")) {
             game.connect_draw_first_twoButtons(name);
             game.outofMinigame();
         }
